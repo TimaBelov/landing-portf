@@ -1,0 +1,94 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body,button{
+    font-family: 'Gilroy';
+}
+
+h1{
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 58px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+p{
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 33px;
+}
+
+.header__link{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #828282;
+
+    padding-bottom: 32px;
+    border-bottom: 1px solid #828282;
+    padding-right: 155px;
+}
+
+.header__link:first-child{
+    color: black;
+}
+
+.header__link:last-child{
+    padding-right: 0;
+}
+
+main{
+    width: 941px;
+    margin: 0 auto;
+}
+
+.first_view{
+    margin-bottom: 104px;
+}
+
+.text_info{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    margin-bottom: 41px;
+}
+
+.text_info h1{
+    margin-right: 297px;
+}
+
+.text_info p{
+    padding-bottom: 10px;
+}
+
+.about_me{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 107px;
+    background-color: #F6F6F6;
+    text-align: center;
+}
+
+.about_me h2{
+    margin-bottom: 30px;
+}
+
+.skills{
+}
