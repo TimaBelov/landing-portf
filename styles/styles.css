@@ -40,9 +40,9 @@ header{
     text-decoration: none;
     color: #828282;
 
-    padding-bottom: 32px;
+    margin-bottom: 32px;
     border-bottom: 1px solid #828282;
-    padding-right: 155px;
+    margin-right: 155px;
 }
 
 .header__link:first-child{
