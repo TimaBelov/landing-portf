@@ -11,10 +11,10 @@
 <body>
     <header>
         <a href="#" class="header__link">Home</a>
-        <a href="#" class="header__link">About me</a>
-        <a href="#" class="header__link">Skills</a>
-        <a href="#" class="header__link">Portfolio</a>
-        <a href="#" class="header__link">Contacts</a>
+        <a href="#about_me" class="header__link">About me</a>
+        <a href="#skills" class="header__link">Skills</a>
+        <a href="#portfolio" class="header__link">Portfolio</a>
+        <a href="#contacts" class="header__link">Contacts</a>
     </header>
     <main>
         <section class="first_view">
@@ -26,20 +26,62 @@
             </div>
             <img src="resources/author_photo.png" alt="Фото Дениса Новика">
         </section>
-        <section class="about_me">
-            <h2>About me</h2>
-            <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
-                I'm interested in design and everything connected with it.<br>
-                <br><br>
-                I'm studying at courses "Web and mobile design <br>
-                interfaces" in IT-Academy.<br>
-                <br><br>
-                Ready to implement excellent projects<br>
-                 with wonderful people.</p>
+        <section class="about_me" id="about_me">
+            <section class="about_me_text">
+                <h2>About me</h2>
+                <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
+                    I'm interested in design and everything connected with it.<br>
+                    <br><br>
+                    I'm studying at courses "Web and mobile design <br>
+                    interfaces" in IT-Academy.<br>
+                    <br><br>
+                    Ready to implement excellent projects<br>
+                     with wonderful people.</p>
+            </section>
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
             <h2>Skills</h2>
+            <p>I work in such programs as</p>
+            <div class="skills_image_container">
+                <img src="resources/skill_photoshop.png" alt="Адоб Фотошоп 4/5">
+                <img src="resources/skill_illustrator.png" alt="Адоб Иллюстратор 3/5">
+                <img src="resources/skill_after_ef.png" alt="Адоб Афтер Эффектс 4/5">
+                <img src="resources/skill_figma.png" alt="Фигма 4/5">
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio_item">
+                <img src="resources/online_fashion_store.png" alt="Главная страница магазина 'Online fashion'">
+                <a href="#">Online fashion store - Homepage</a>
+            </div>
+            <div class="portfolio_item">
+                <img src="resources/reebok_store_concept.png" alt="Концепт магазина Reebok">
+                <a href="#">Reebok Store - Concept</a>
+            </div>
+            <div class="portfolio_item">
+                <img src="resources/braun_landing_page.png" alt="Лэндинг страница 'Braun'">
+                <a href="#">Braun Landing Page - Concept</a>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <h2>Contacts</h2>
+            <p>Want to know more or just chat?<br> 
+                You are welcome!
+            </p>
+            <button>Send message</button>
         </section>
     </main>
+    <footer>
+        <div class="social_networks">
+            <img src="resources/linkedln.png" alt="Логотип Linkedln">
+            <img src="resources/insta.png" alt="Логотип Instagram">
+            <img src="resources/behance.png" alt="Логотип Behance">
+            <img src="resources/dribble.png" alt="Логотип Dribble">
+        </div>
+        <p>Like me on<br>
+            LinkedIn, Instagram, Behance, Dribble
+        </p>
+    </footer>
 </body>
 </html>
