@@ -63,6 +63,13 @@ section{
     margin-bottom: 104px;
 }
 
+.photo_author{
+    width: 943px;
+    height: 387px;
+    margin: 0 auto;
+    background-image: url(../resources/author_photo.png);
+}
+
 .text_info{
     display: flex;
     justify-content: left;
@@ -209,6 +216,12 @@ footer{
 
     .text_info p{
         text-align: left;
+    }
+
+    .photo_author{
+        width: 316px;
+        height: 478px;
+        background-image: url(../resources/author_photo_mobile.png);
     }
 
     section{
